@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.PhongMaterial?>
+<?import javafx.scene.shape.MeshView?>
+<?import javafx.scene.shape.TriangleMesh?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.controller">
+ <children>
+      <BorderPane  AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" >
+         <bottom>
+                  <GridPane  fx:id="grid" onMouseClicked="#gridClick" />
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
